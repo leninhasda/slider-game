@@ -1,0 +1,127 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	font-family: Calibri;
+	color: #666;
+}
+#outter{
+	position: relative;
+	width: 750px;
+	margin: 10px auto;
+}
+#wrap {
+	position: relative;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 300px;
+	padding: 75px;	
+	background-color: white;
+}
+#how-to {
+	margin-left: 480px;
+	padding: 75px 0;
+	text-transform: lowercase;
+	text-align: center;
+}
+#how-to h1 {
+	text-align: center;
+}
+#how-to p {
+	font-size: 18px;
+}
+.restart-btn {
+	
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 7px 15px;
+	background-color: white;
+	color: red;
+	cursor: pointer;
+}
+.restart-btn:hover {
+	font-weight: bold;
+	box-shadow: 0px 0px 2px 0px #aaa;
+}
+.inner {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+.solved,
+.shade,
+.move {
+	display: none;
+}
+.solved {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: url('images/solve.jpg');
+	box-shadow: inset 0px 0px 0px 1px #333, inset 0px 0px 2px 2px grey;
+	z-index: 99999;
+}
+.shade {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 999999;
+	background-color: black;
+	opacity: .2;
+}
+.move {
+	position: absolute;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 7px 15px;
+	background-color: white;
+	color: lightblue;
+	font-weight: bold;		
+	top: 135px;
+	left: 100px;
+	z-index: 9999999;
+}
+.slide {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	box-shadow: inset 0px 0px 0px 1px #333, inset 0px 0px 2px 2px grey;
+	z-index: 111;
+}
+.slide:nth-child(1) { background: url('images/1.jpg'); 
+	top: 0px;
+	margin-left: 0;
+}
+.slide:nth-child(2) { background: url('images/2.jpg'); 
+	top: 0px;
+	margin-left: 100px;
+}
+.slide:nth-child(3) { background: url('images/3.jpg'); 
+	top: 0px;
+	margin-left: 200px;
+}
+.slide:nth-child(4) { background: url('images/4.jpg'); 
+	top: 100px;
+	margin-left: 0;
+}
+.slide:nth-child(5) { background: url('images/5.jpg'); 
+	top: 100px;
+	margin-left: 100px;
+}
+.slide:nth-child(6) { background: url('images/6.jpg'); 
+	top: 100px;
+	margin-left: 200px;
+}
+.slide:nth-child(7) { background: url('images/7.jpg'); 
+	top: 200px;
+	margin-left: 0;
+}
+.slide:nth-child(8) { background: url('images/8.jpg'); 
+	top: 200px;
+	margin-left: 100px;
+}
