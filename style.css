@@ -13,17 +13,29 @@ html, body {
 #wrap {
 	position: relative;
 	float: left;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	width: 300px;
-	padding: 75px;	
-	background-color: white;
+	/*border: 1px solid #ccc;*/
+	/*border-radius: 3px;*/
+	width: 50%;
+	/*padding: 75px;	*/
+	/*background-color: white;*/
 }
+.intro {
+	text-align: center;
+}
+.intro h1 {
+	font-size: 36px;
+}
+.intro h2 {
+
+}
+.clearfix{clear: both;}
 #how-to {
-	margin-left: 480px;
-	padding: 75px 0;
+	/*padding: 75px 0;*/
 	text-transform: lowercase;
 	text-align: center;
+	float: left;
+	width: 50%;
+	margin-top: 15px;
 }
 #how-to h1 {
 	text-align: center;
@@ -31,8 +43,13 @@ html, body {
 #how-to p {
 	font-size: 18px;
 }
+.gamewrap {
+	background: white;
+	padding: 25px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
 .restart-btn {
-	
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 15px;
@@ -40,13 +57,15 @@ html, body {
 	background-color: white;
 	color: red;
 	cursor: pointer;
+	text-decoration: none;
 }
 .restart-btn:hover {
-	font-weight: bold;
 	box-shadow: 0px 0px 2px 0px #aaa;
+	background: #ccc;
+	color: royalblue;
 }
 .inner {
-	background-color: red;
+	background-color: darkgray;
 	width: 300px;
 	height: 300px;
 	position: relative;
@@ -124,4 +143,16 @@ html, body {
 .slide:nth-child(8) { background: url('images/8.jpg'); 
 	top: 200px;
 	margin-left: 100px;
+}
+
+.source {
+	font-size: 13px;
+	text-align: center;
+	color: #aaa;
+}
+.source a {
+	color: #999;
+}
+.source a:hover {
+	color: #666;
 }
